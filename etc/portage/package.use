@@ -1,0 +1,51 @@
+sys-fs/udev extras
+sys-block/parted device-mapper
+dev-python/PyQt4 sql declarative
+net-misc/wicd gtk
+# needed for texlive
+app-text/lcdf-typetools kpathsea
+# needed for gnuplot
+media-libs/gd png
+# needed for ekiga
+net-libs/ptlib wav
+net-libs/opal sip
+# needed for inkscape
+app-text/poppler cairo
+media-libs/lcms python
+# need kerberized ssh
+net-misc/openssh kerberos
+kde-base/krdc vnc
+# needed for ekiga videoconf support
+net-libs/opal h323
+net-voip/ekiga h323
+# needed to have flashcards with formulas
+app-misc/anki latex
+# 
+media-libs/gd fontconfig jpeg truetype
+media-gfx/imagemagick djvu fontconfig fpx graphviz gs hdri jbig jpeg jpeg2k lcms  png tiff truetype 
+# needed for calibre
+dev-lang/python sqlite
+# needed for chromium, Jul2011
+dev-libs/libxml2 icu
+# needed for opencv, Jul2011
+sci-libs/hdf5  mpi threads
+sys-cluster/openmpi romio
+# needed to get gitk and gitview
+dev-vcs/git gtk tk
+# needed to annotate pdf?
+app-text/xournal pdf
+# required for update 05Aug2011
+media-plugins/gst-plugins-meta vorbis
+# to get the java plugin for browsers
+dev-java/sun-jdk nsplugin
+# so that gimp supports these formats
+media-gfx/gimp jpeg pdf png
+# browser java plugin
+# move dev-java/icedtea6-bin dev-java/icedtea-bin
+dev-java/icedtea-bin nsplugin
+# want root with pyRoot (Oct2011)
+sci-physics/root python
+# required by update 22Oct2011 (mesa) 
+dev-libs/libxml2 python
+#reuired by firefox (update19Nov2011)
+media-libs/libpng apng

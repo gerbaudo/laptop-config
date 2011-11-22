@@ -1,0 +1,9 @@
+net-wireless/rtl8192se ~x86
+net-wireless/rtl8192se-firmware ~x86
+net-im/skype ~x86
+dev-tex/todonotes ~x86
+app-text/calibre ~x86
+dev-python/cssutils ~x86
+app-text/podofo ~x86
+media-gfx/hugin ~x86
+app-text/xournal ~x86

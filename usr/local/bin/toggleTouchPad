@@ -1,0 +1,13 @@
+#!/bin/sh
+#
+# toggle touchpad operation
+# August 2, 2006
+# (c) Michael Schmuker
+#
+if synclient -l | grep TouchpadOff | grep -q 0; then 
+    synclient TouchpadOff=1;
+    kdialog --passivepopup "Touchpad is OFF" 2;
+else 
+    synclient TouchpadOff=0;
+    kdialog --passivepopup "Touchpad is ON" 2;
+fi
