@@ -49,3 +49,7 @@ sci-physics/root python
 dev-libs/libxml2 python
 #reuired by firefox (update19Nov2011)
 media-libs/libpng apng
+# needed for dvdrip (Nov2011)
+media-video/transcode jpeg vorbis
+x11-libs/gdk-pixbuf jpeg
+
