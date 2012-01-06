@@ -44,7 +44,7 @@ media-gfx/gimp jpeg pdf png
 # move dev-java/icedtea6-bin dev-java/icedtea-bin
 dev-java/icedtea-bin nsplugin
 # want root with pyRoot (Oct2011)
-sci-physics/root python
+sci-physics/root python doc examples
 # required by update 22Oct2011 (mesa) 
 dev-libs/libxml2 python
 #reuired by firefox (update19Nov2011)
@@ -52,4 +52,6 @@ media-libs/libpng apng
 # needed for dvdrip (Nov2011)
 media-video/transcode jpeg vorbis
 x11-libs/gdk-pixbuf jpeg
+# needed to used xmonad with dual head
+dev-haskell/x11 xinerama
 
