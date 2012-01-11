@@ -50,7 +50,7 @@ Host *fnal.gov
 #   VisualHostKey no
 #   ProxyCommand ssh -q -W %h:%p gateway.example.com
 
-HOST lxplus* svn.cern.ch
+HOST lxplus* *.cern.ch svn.cern.ch
     GSSAPITrustDns yes
     GSSAPIAuthentication yes
     GSSAPIDelegateCredentials yes
