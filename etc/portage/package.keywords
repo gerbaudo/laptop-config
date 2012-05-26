@@ -7,3 +7,14 @@ dev-python/cssutils ~x86
 app-text/podofo ~x86
 media-gfx/hugin ~x86
 app-text/xournal ~x86
+sci-physics/root ~x86
+# DG Mar2012 -- # required by sci-physics/root-5.32.00
+# DG Mar2012 -- sci-mathematics/rngstreams ~x86
+# DG Mar2012 -- sci-mathematics/unuran ~x86
+dev-cpp/gccxml ~x86
+x11-wm/afterstep ~x86
+# required by app-text/calibre-0.8.45 (March2012)
+dev-python/PyQt4 ~x86
+dev-python/sip ~x86
+# gtalk (Apr2012)
+www-plugins/google-talkplugin ~x86
