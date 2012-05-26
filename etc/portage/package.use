@@ -31,7 +31,9 @@ dev-libs/libxml2 icu
 sci-libs/hdf5  mpi threads
 sys-cluster/openmpi romio
 # needed to get gitk and gitview
-dev-vcs/git gtk tk
+dev-vcs/git gtk tk subversion
+# needed for git-svn
+dev-vcs/subversion -dso perl
 # needed to annotate pdf?
 app-text/xournal pdf
 # required for update 05Aug2011
@@ -44,7 +46,9 @@ media-gfx/gimp jpeg pdf png
 # move dev-java/icedtea6-bin dev-java/icedtea-bin
 dev-java/icedtea-bin nsplugin
 # want root with pyRoot (Oct2011)
+media-libs/libafterimage png tiff jpeg
 sci-physics/root python doc examples
+# DG 31/03/2012  sci-physics/root python doc examples debug
 # required by update 22Oct2011 (mesa) 
 dev-libs/libxml2 python
 #reuired by firefox (update19Nov2011)
@@ -55,3 +59,13 @@ x11-libs/gdk-pixbuf jpeg
 # needed to used xmonad with dual head
 dev-haskell/x11 xinerama
 
+# just for a test of flightgear
+dev-games/openscenegraph png
+# required for libreoffice, Feb 2012
+dev-libs/boost python
+# conflict Apr2012
+app-office/libreoffice -nsplugin
+#required by sys-power/upower-0.9.16, required by kde-base/kdelibs-4.8.3[upower], required by kde-base/kdebase-menu-icons-4.8.3, required by kde-base/kdebase-runtime-meta-4.8.3, required by kde-base/kdebase-startkde-4.8.3, required by kde-base/kdebase-meta-4.8.3, required by @selected, required by @world (argument)
+=sys-fs/udev-171-r6 gudev
+#required by media-video/vlc-1.1.13, required by @selected, required by @world (argument)
+=sys-libs/zlib-1.2.5.1-r2 minizip
