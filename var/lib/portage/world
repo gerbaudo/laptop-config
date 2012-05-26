@@ -9,6 +9,7 @@ app-crypt/mit-krb5
 app-editors/emacs
 app-emacs/folding
 app-emacs/org-mode
+app-emacs/slime
 app-emulation/virtualbox
 app-emulation/wine
 app-misc/anki
@@ -22,6 +23,7 @@ app-text/acroread
 app-text/calibre
 app-text/dos2unix
 app-text/gv
+app-text/pastebin
 app-text/texlive
 app-text/wgetpaste
 app-text/xdvik
@@ -82,14 +84,15 @@ sys-apps/mlocate
 sys-apps/pciutils
 sys-apps/portage
 sys-boot/grub
+sys-devel/gdb
 sys-fs/sshfs-fuse
 sys-kernel/gentoo-sources
-sys-kernel/gentoo-sources:2.6.37-r4
 sys-process/lsof
 sys-process/vixie-cron
 www-client/chromium
 www-client/firefox
 www-plugins/adobe-flash
+www-plugins/google-talkplugin
 x11-apps/mesa-progs
 x11-base/xorg-server
 x11-base/xorg-x11
