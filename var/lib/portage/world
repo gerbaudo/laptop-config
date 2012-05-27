@@ -104,5 +104,7 @@ x11-drivers/xf86-video-vesa
 x11-misc/dmenu
 x11-misc/dzen
 x11-misc/slock
+x11-misc/trayer
+x11-misc/xmobar
 x11-wm/xmonad
 x11-wm/xmonad-contrib

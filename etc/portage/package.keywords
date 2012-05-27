@@ -18,3 +18,15 @@ dev-python/PyQt4 ~x86
 dev-python/sip ~x86
 # gtalk (Apr2012)
 www-plugins/google-talkplugin ~x86
+#required by dev-haskell/parsec-3.1.2-r1, required by x11-misc/xmobar-0.14, required by xmobar (argument)
+=dev-haskell/text-0.11.2.0 ~x86
+#required by dev-haskell/text-0.11.2.0, required by dev-haskell/parsec-3.1.2-r1, required by x11-misc/xmobar-0.14, required by xmobar (argument)
+=dev-haskell/deepseq-1.3.0.0 ~x86
+#required by x11-misc/xmobar-0.14[alsa], required by xmobar (argument)
+=dev-haskell/alsa-mixer-0.1.2 ~x86
+#required by xmobar (argument)
+=x11-misc/xmobar-0.14 ~x86
+#required by x11-misc/xmobar-0.14, required by xmobar (argument)
+=dev-haskell/parsec-3.1.2-r1 ~x86
+#required by x11-misc/xmobar-0.14[alsa], required by xmobar (argument)
+=dev-haskell/alsa-core-0.5.0.1 ~x86
