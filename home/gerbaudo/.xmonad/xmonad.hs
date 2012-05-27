@@ -1,6 +1,9 @@
 import XMonad
 import XMonad.Hooks.DynamicLog
 import XMonad.Hooks.ManageDocks
+import XMonad.Hooks.ManageHelpers
+import XMonad.Layout.NoBorders
+import XMonad.Layout.Gaps
 import XMonad.Layout.Spiral
 import XMonad.Util.EZConfig
 import XMonad.Util.Run
@@ -17,9 +20,9 @@ mymanageHook = composeAll
 				, manageDocks]
 myWorkspaces = ["1:main","2:chat","3","whatever","5:media","6","7","8:web"]
 
+--xmproc <- spawnPipe "/usr/bin/trayer --edge top --align right --SetDockType true --SetPartialStrut true --expand true --width 6 --transparent true --alpha 0 --tint 0x000000 --height 16"
 main = do
 xmproc <- spawnPipe "/usr/bin/xmobar /home/gerbaudo/.xmonad/xmobar.config"
-xmproc <- spawnPipe "/usr/bin/trayer --edge top --align right --SetDockType true --SetPartialStrut true --expand true --width 6 --transparent true --alpha 0 --tint 0x000000 --height 16"
 xmonad $ defaultConfig
        { terminal = "konsole"
        , modMask = mod4Mask
@@ -30,6 +33,7 @@ xmonad $ defaultConfig
 	   , manageHook = manageDocks <+> manageHook defaultConfig
 	   , layoutHook = avoidStruts $ layoutHook defaultConfig
        , startupHook = do spawn ". ~/.xmodmap"
+	   	 			   >> spawn "/usr/bin/trayer --edge top --align right --SetDockType true --SetPartialStrut true --expand true --width 6 --transparent true --alpha 0 --tint 0x000000 --height 16"
 	   , logHook = dynamicLogWithPP xmobarPP
 	   	 { ppOutput = hPutStrLn xmproc
 		 , ppTitle = xmobarColor "blue" "" . shorten 50
