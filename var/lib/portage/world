@@ -8,6 +8,7 @@ app-cdr/k9copy
 app-crypt/mit-krb5
 app-editors/emacs
 app-emacs/folding
+app-emacs/haskell-mode
 app-emacs/org-mode
 app-emacs/slime
 app-emulation/virtualbox
