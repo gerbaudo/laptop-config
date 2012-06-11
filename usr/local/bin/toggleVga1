@@ -4,7 +4,7 @@
 #
 # davide.gerbaudo@gmail.com, June2012
 
-if xrandr | grep "VGA1 disconnected" | grep -q 0; then 
+if xrandr | grep -c "VGA1 connected" ; then
     xrandr --output VGA1 --auto --right-of LVDS1
 else 
     xrandr --output VGA1 --off
