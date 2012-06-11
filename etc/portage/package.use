@@ -69,3 +69,5 @@ app-office/libreoffice -nsplugin
 =sys-fs/udev-171-r6 gudev
 #required by media-video/vlc-1.1.13, required by @selected, required by @world (argument)
 =sys-libs/zlib-1.2.5.1-r2 minizip
+#required by sys-fs/udisks-1.0.4-r2, required by app-text/calibre-0.8.55[udisks], required by @selected, required by @world (argument)
+=sys-fs/udev-171-r6 hwdb
