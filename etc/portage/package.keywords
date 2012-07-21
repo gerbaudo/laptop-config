@@ -30,3 +30,5 @@ www-plugins/google-talkplugin ~x86
 =dev-haskell/parsec-3.1.2-r1 ~x86
 #required by x11-misc/xmobar-0.14[alsa], required by xmobar (argument)
 =dev-haskell/alsa-core-0.5.0.1 ~x86
+#required by x11-libs/qt-webkit-4.8.2[gstreamer], required by x11-libs/qt-declarative-4.8.2[webkit], required by kde-base/plasma-runtime-4.8.3, required by kde-base/kdebase-runtime-meta-4.8.3, required by kde-base/kdebase-startkde-4.8.3, required by kde-base/kdebase-meta-4.8.3, required by @selected, required by @world (argument)
+=dev-libs/libxml2-2.8.0-r1 ~x86
