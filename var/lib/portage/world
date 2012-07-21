@@ -73,6 +73,7 @@ net-misc/rdesktop
 net-misc/tigervnc
 net-misc/wicd
 net-voip/ekiga
+sci-libs/scipy
 sci-physics/cernlib
 sci-physics/herwig
 sci-physics/pythia
