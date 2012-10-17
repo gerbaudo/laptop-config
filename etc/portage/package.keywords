@@ -7,7 +7,7 @@ dev-python/cssutils ~x86
 app-text/podofo ~x86
 media-gfx/hugin ~x86
 app-text/xournal ~x86
-sci-physics/root ~x86
+# sci-physics/root ~x86 # temp downgrade 5.34 -> 5.32 (cint bug https://savannah.cern.ch/bugs/?95188)
 # DG Mar2012 -- # required by sci-physics/root-5.32.00
 # DG Mar2012 -- sci-mathematics/rngstreams ~x86
 # DG Mar2012 -- sci-mathematics/unuran ~x86
@@ -32,3 +32,10 @@ www-plugins/google-talkplugin ~x86
 =dev-haskell/alsa-core-0.5.0.1 ~x86
 #required by x11-libs/qt-webkit-4.8.2[gstreamer], required by x11-libs/qt-declarative-4.8.2[webkit], required by kde-base/plasma-runtime-4.8.3, required by kde-base/kdebase-runtime-meta-4.8.3, required by kde-base/kdebase-startkde-4.8.3, required by kde-base/kdebase-meta-4.8.3, required by @selected, required by @world (argument)
 =dev-libs/libxml2-2.8.0-r1 ~x86
+#required by dev-haskell/x11-1.5.0.1, required by x11-wm/xmonad-0.10, required by =x11-wm/xmonad-0.10 (argument)
+=dev-haskell/syb-0.3.7 ~x86
+#required by =x11-wm/xmonad-0.10 (argument)
+=dev-haskell/mtl-2.1.2 ~x86
+=dev-haskell/x11-1.5.0.1 ~x86
+=x11-wm/xmonad-0.10 ~x86
+=x11-wm/xmonad-contrib-0.10 ~x86
