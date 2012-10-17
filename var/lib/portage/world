@@ -21,16 +21,18 @@ app-portage/layman
 app-portage/portage-utils
 app-shells/tcsh
 app-text/acroread
-app-text/calibre
+app-text/aspell
 app-text/dos2unix
 app-text/gv
 app-text/pastebin
+app-text/pdftk
 app-text/texlive
 app-text/wgetpaste
 app-text/xdvik
 app-text/xournal
 dev-java/icedtea-bin
 dev-java/java-config
+dev-lang/ghc
 dev-lisp/clisp
 dev-python/matplotlib
 dev-python/pyx
@@ -108,5 +110,4 @@ x11-misc/dzen
 x11-misc/slock
 x11-misc/trayer
 x11-misc/xmobar
-x11-wm/xmonad
 x11-wm/xmonad-contrib
