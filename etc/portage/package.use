@@ -71,3 +71,10 @@ app-office/libreoffice -nsplugin
 =sys-libs/zlib-1.2.5.1-r2 minizip
 #required by sys-fs/udisks-1.0.4-r2, required by app-text/calibre-0.8.55[udisks], required by @selected, required by @world (argument)
 =sys-fs/udev-171-r6 hwdb
+
+#required by app-text/pdftk-1.44, required by pdftk (argument)
+>=sys-devel/gcc-4.5.4:4.5 gcj
+#required by media-video/vlc-2.0.3, required by @selected, required by @world (argument)
+>=sys-libs/zlib-1.2.7 minizip
+# required for 4Oct2012 update
+app-cdr/k3b mp3 encode
