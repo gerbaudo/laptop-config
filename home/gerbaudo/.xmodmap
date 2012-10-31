@@ -1,5 +1,10 @@
 #!/bin/bash
 
-xmodmap -e "remove Lock = Caps_Lock"
-xmodmap -e "keysym Caps_Lock = Control_L"
-xmodmap -e "add Control = Control_L"
+#xmodmap -e "remove Lock = Caps_Lock"
+#xmodmap -e "keysym Caps_Lock = Control_L"
+#xmodmap -e "add Control = Control_L"
+
+setxkbmap -model pc104 -layout us
+setxkbmap -option compose:menu # enable compose key on menu key
+setxkbmap -option ctrl:nocaps  # make caps an additional ctrl
+
