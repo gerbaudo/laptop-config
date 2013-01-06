@@ -78,3 +78,7 @@ app-office/libreoffice -nsplugin
 >=sys-libs/zlib-1.2.7 minizip
 # required for 4Oct2012 update
 app-cdr/k3b mp3 encode
+#required by sys-power/upower-0.9.16, required by kde-base/kdelibs-4.8.5[upower], required by kde-misc/polkit-kde-kcmodules-0.98_pre20120917
+=sys-fs/udev-171-r8 gudev hwdb
+#required by sys-power/upower-0.9.18, required by kde-base/kdelibs-4.9.3[upower], required by kde-base/kioclient-4.9.3, required by kde-base/kdebase-runtime-meta-4.9.3, required by kde-base/kdebase-startkde-4.9.3, required by kde-base/kdebase-meta-4.9.3, required by @selected, required by @world (argument)
+=sys-fs/udev-171-r9 gudev hwdb
