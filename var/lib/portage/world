@@ -87,10 +87,17 @@ sys-apps/lshw
 sys-apps/mlocate
 sys-apps/pciutils
 sys-apps/portage
+sys-block/ms-sys
 sys-boot/grub
+sys-boot/syslinux
 sys-devel/gdb
+sys-firmware/iwl6005-ucode
+sys-fs/ddrescue
+sys-fs/dosfstools
 sys-fs/sshfs-fuse
 sys-kernel/gentoo-sources
+sys-power/acpid
+sys-power/powertop
 sys-process/lsof
 sys-process/vixie-cron
 www-client/chromium
