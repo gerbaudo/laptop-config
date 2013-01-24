@@ -40,3 +40,5 @@ www-plugins/google-talkplugin ~x86
 =x11-wm/xmonad-0.10 ~x86
 =x11-wm/xmonad-contrib-0.10 ~x86#required by sys-firmware/iwl6005-ucode (argument)
 =sys-firmware/iwl6005-ucode-18.168.6.1 ~x86
+#required by media-sound/google-musicmanager (argument)
+=media-sound/google-musicmanager-1.0.54.4672_beta ~x86
