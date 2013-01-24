@@ -61,6 +61,7 @@ media-gfx/inkscape
 media-gfx/pstoedit
 media-gfx/xfig
 media-sound/alsa-utils
+media-sound/google-musicmanager
 media-video/acidrip
 media-video/dvdrip
 media-video/mplayer
@@ -74,6 +75,7 @@ net-misc/openssh
 net-misc/rdesktop
 net-misc/tigervnc
 net-misc/wicd
+net-misc/youtube-dl
 net-voip/ekiga
 sci-libs/scipy
 sci-physics/cernlib
