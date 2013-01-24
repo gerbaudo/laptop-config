@@ -82,3 +82,11 @@ app-cdr/k3b mp3 encode
 =sys-fs/udev-171-r8 gudev hwdb
 #required by sys-power/upower-0.9.18, required by kde-base/kdelibs-4.9.3[upower], required by kde-base/kioclient-4.9.3, required by kde-base/kdebase-runtime-meta-4.9.3, required by kde-base/kdebase-startkde-4.9.3, required by kde-base/kdebase-meta-4.9.3, required by @selected, required by @world (argument)
 =sys-fs/udev-171-r9 gudev hwdb
+#required by kde-base/pykde4-4.9.3, required by kde-base/printer-applet-4.9.3, required by kde-base/kdeutils-meta-4.9.3[cups], required by @selected, required by @world (argument)
+>=dev-python/PyQt4-4.9.6-r1 script
+#required by sys-fs/udisks-1.0.4-r2, required by kde-base/kdelibs-4.9.3[udisks], required by media-video/vlc-2.0.5[kde], required by @selected, required by @world (argument)
+=virtual/udev-171 gudev hwdb
+#required by app-text/pdftk-1.44, required by @selected, required by @world (argument)
+>=sys-devel/gcc-4.6.3:4.6 gcj
+#required by sci-libs/scipy-0.9.0-r1, required by @selected, required by @world (argument)
+>=dev-python/numpy-1.6.2 lapack
