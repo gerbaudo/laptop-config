@@ -32,7 +32,7 @@ xmproc <- spawnPipe "/usr/bin/xmobar /home/gerbaudo/.xmonad/xmobar.config"
 xmonad $ defaultConfig
        { terminal = "konsole"
        , modMask = mod4Mask
-       , borderWidth = 0
+       , borderWidth = 1
        , workspaces = myWorkspaces
        -- , layoutHook = mylayoutHook
        -- , manageHook = mymanageHook
