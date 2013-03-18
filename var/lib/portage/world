@@ -34,6 +34,7 @@ dev-java/icedtea-bin
 dev-java/java-config
 dev-lang/ghc
 dev-lisp/clisp
+dev-python/django
 dev-python/matplotlib
 dev-python/pyx
 dev-python/setuptools
@@ -67,6 +68,7 @@ media-video/dvdrip
 media-video/mplayer
 media-video/vlc
 net-analyzer/traceroute
+net-analyzer/wireshark
 net-dns/bind-tools
 net-im/skype
 net-misc/clamz
@@ -77,6 +79,7 @@ net-misc/tigervnc
 net-misc/wicd
 net-misc/youtube-dl
 net-voip/ekiga
+net-wireless/aircrack-ng
 sci-libs/scipy
 sci-physics/cernlib
 sci-physics/herwig
@@ -100,6 +103,7 @@ sys-fs/sshfs-fuse
 sys-kernel/gentoo-sources
 sys-power/acpid
 sys-power/powertop
+sys-process/htop
 sys-process/lsof
 sys-process/vixie-cron
 www-client/chromium
