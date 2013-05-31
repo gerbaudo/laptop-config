@@ -7,8 +7,8 @@ app-text/lcdf-typetools kpathsea
 # needed for gnuplot
 media-libs/gd png
 # needed for ekiga
-net-libs/ptlib wav
-net-libs/opal sip
+#net-libs/ptlib wav
+#net-libs/opal sip xml
 # needed for inkscape
 app-text/poppler cairo
 media-libs/lcms python
@@ -16,7 +16,7 @@ media-libs/lcms python
 net-misc/openssh kerberos
 kde-base/krdc vnc
 # needed for ekiga videoconf support
-net-libs/opal h323
+net-libs/opal h323 sip xml
 net-voip/ekiga h323
 # needed to have flashcards with formulas
 app-misc/anki latex
@@ -94,3 +94,14 @@ net-analyzer/wireshark gtk#required by sys-fs/udisks-1.0.4-r4, required by kde-b
 >=virtual/udev-197-r1 gudev hwdb
 #required by virtual/udev-197-r1, required by sys-apps/hwids-20130302[udev], required by sys-apps/lshw-02.16b-r2, required by @selected, required by @world (argument)
 =sys-fs/udev-197-r8 gudev hwdb
+# 
+=net-libs/ptlib-2.6.7-r1 xml wav
+# required by virtual/udev-197-r2
+# required by kde-base/kdelibs-4.10.1-r1[udev]
+# required by kde-base/kdebase-startkde-4.10.1
+# required by kde-base/kdebase-meta-4.10.1
+# required by @selected
+# required by @world (argument)
+=sys-fs/udev-200 gudev hwdb
+# linphone with gui
+net-voip/linphone gtk
