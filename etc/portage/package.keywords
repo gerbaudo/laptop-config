@@ -16,7 +16,7 @@ dev-cpp/gccxml ~x86
 x11-wm/afterstep ~x86
 # required by app-text/calibre-0.8.45 (March2012)
 dev-python/PyQt4 ~x86
-dev-python/sip ~x86
+#dev-python/sip ~x86
 # gtalk (Apr2012)
 www-plugins/google-talkplugin ~x86
 #required by dev-haskell/parsec-3.1.2-r1, required by x11-misc/xmobar-0.14, required by xmobar (argument)
@@ -39,7 +39,8 @@ www-plugins/google-talkplugin ~x86
 =dev-haskell/mtl-2.1.2 ~x86
 =dev-haskell/x11-1.5.0.1 ~x86
 =x11-wm/xmonad-0.10 ~x86
-=x11-wm/xmonad-contrib-0.10 ~x86#required by sys-firmware/iwl6005-ucode (argument)
+=x11-wm/xmonad-contrib-0.10 ~x86
+#required by sys-firmware/iwl6005-ucode (argument)
 =sys-firmware/iwl6005-ucode-18.168.6.1 ~x86
 #required by media-sound/google-musicmanager (argument)
 =media-sound/google-musicmanager-1.0.54.4672_beta ~x86
@@ -50,3 +51,27 @@ www-plugins/google-talkplugin ~x86
 =x11-drivers/xf86-input-synaptics-1.6.3 ~x86
 =x11-drivers/xf86-video-fbdev-0.4.3-r1 ~x86
 =x11-drivers/xf86-video-vesa-2.3.2-r1 ~x86
+#=dev-haskell/alsa-core-0.5.0.1 ~x86
+=dev-haskell/alsa-core-0.5.0.1-r2 ~x86
+# required by dev-haskell/alsa-core-0.5.0.1-r2
+# required by dev-haskell/alsa-mixer-0.1.2
+# required by x11-misc/xmobar-0.14[alsa]
+# required by @selected
+# required by @world (argument)
+=dev-haskell/extensible-exceptions-0.1.1.4 ~x86
+#        dev-haskell/time ~x86
+# required by dev-db/mongodb-2.4.3
+# required by dev-db/mongodb (argument)
+=app-arch/snappy-1.1.0 ~x86
+# required by dev-libs/boost-1.52.0-r6
+# required by kde-base/kdepimlibs-4.10.1
+# required by @__auto_slot_operator_replace_installed__ (argument)
+=dev-util/boost-build-1.52.0-r1 ~x86
+# required by dev-db/mongodb (argument)
+=dev-db/mongodb-2.4.3 ~x86
+# required by nodejs (argument)
+=net-libs/nodejs-0.10.5 ~x86
+# required by @__auto_slot_operator_replace_installed__ (argument)
+=dev-libs/boost-1.52.0-r6 ~x86
+# required by sys-apps/npm (argument)
+=sys-apps/npm-1.0.26 ~x86

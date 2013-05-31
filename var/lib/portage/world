@@ -38,6 +38,7 @@ dev-python/django
 dev-python/matplotlib
 dev-python/pyx
 dev-python/setuptools
+dev-python/virtualenv
 dev-tex/pgf
 dev-tex/rubber
 dev-tex/texmfind
@@ -71,6 +72,7 @@ net-analyzer/traceroute
 net-analyzer/wireshark
 net-dns/bind-tools
 net-im/skype
+net-libs/nodejs
 net-misc/clamz
 net-misc/dhcpcd
 net-misc/openssh
@@ -79,6 +81,7 @@ net-misc/tigervnc
 net-misc/wicd
 net-misc/youtube-dl
 net-voip/ekiga
+net-voip/linphone
 net-wireless/aircrack-ng
 sci-libs/scipy
 sci-physics/cernlib
