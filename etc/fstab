@@ -27,3 +27,5 @@
 proc			/proc		proc		defaults	0 0
 shm			/dev/shm	tmpfs		nodev,nosuid,noexec	0 0
 #none			/var/tmp/portage		tmpfs			nr_inodes=1M	0 0
+UUID=31544b85-5b31-459c-82de-079e3e7339bc  /mnt/usbdrive      ext3    noauto,users,exec,noatime 0 0
+
