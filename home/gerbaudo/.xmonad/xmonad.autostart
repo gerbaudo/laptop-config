@@ -11,5 +11,5 @@ run_daemon () {
     return 1
 }
 
-run_daemon trayer --edge top --align right --SetDockType true --SetPartialStrut true --expand true --width 5 --transparent true --tint 0x000000 --height 16
+run_daemon trayer-srg --edge top --align right --SetDockType true --SetPartialStrut true --expand true --width 5 --transparent true --tint 0x000000 --height 16
 run_daemon ksystraycmd --startonshow --keeprunning --icon kmix kmix

@@ -35,6 +35,7 @@ dev-java/java-config
 dev-lang/ghc
 dev-lisp/clisp
 dev-python/django
+dev-python/ipython
 dev-python/matplotlib
 dev-python/pyx
 dev-python/setuptools
@@ -64,6 +65,7 @@ media-gfx/pstoedit
 media-gfx/xfig
 media-sound/alsa-utils
 media-sound/google-musicmanager
+media-sound/pianobar
 media-video/acidrip
 media-video/dvdrip
 media-video/mplayer
@@ -124,6 +126,6 @@ x11-drivers/xf86-video-vesa
 x11-misc/dmenu
 x11-misc/dzen
 x11-misc/slock
-x11-misc/trayer
+x11-misc/trayer-srg
 x11-misc/xmobar
 x11-wm/xmonad-contrib
