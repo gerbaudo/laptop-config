@@ -39,7 +39,7 @@ xmonad $ defaultConfig
        , manageHook = manageDocks <+> manageHook defaultConfig
        , layoutHook = avoidStruts $ layoutHook defaultConfig
        , startupHook = do spawn ". ~/.xmodmap"
-                       >> spawn "/usr/bin/trayer --edge top --align right --SetDockType true --SetPartialStrut true --expand true --width 5 --transparent true --alpha 0 --tint 0x000000 --height 16"
+                       >> spawn "~/.xmonad/xmonad.autostart"
        , logHook = dynamicLogWithPP xmobarPP
                  { ppOutput = hPutStrLn xmproc
                  , ppTitle = xmobarColor "blue" "" . shorten 50

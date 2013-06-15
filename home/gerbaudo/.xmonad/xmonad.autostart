@@ -1,0 +1,15 @@
+#!/bin/bash
+
+# from github.com/doitian/xmonad-starter-kit
+run_daemon () {
+    if which "$1" > /dev/null 2>&1; then
+        app=`basename $1`
+        pgrep "$app" > /dev/null && pkill "$app" && sleep 1
+        "$@" &
+        return 0
+    fi
+    return 1
+}
+
+run_daemon trayer --edge top --align right --SetDockType true --SetPartialStrut true --expand true --width 5 --transparent true --tint 0x000000 --height 16
+
