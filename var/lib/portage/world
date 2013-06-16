@@ -37,6 +37,7 @@ dev-lisp/clisp
 dev-python/django
 dev-python/ipython
 dev-python/matplotlib
+dev-python/pypy
 dev-python/pyx
 dev-python/setuptools
 dev-python/virtualenv

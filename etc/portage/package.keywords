@@ -75,3 +75,7 @@ www-plugins/google-talkplugin ~x86
 =dev-libs/boost-1.52.0-r6 ~x86
 # required by sys-apps/npm (argument)
 =sys-apps/npm-1.0.26 ~x86
+# required by pianobar (argument)
+=media-sound/pianobar-9999 ~x86
+# required by pypy (argument)
+=dev-python/pypy-2.0.2 ~x86
