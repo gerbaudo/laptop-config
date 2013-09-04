@@ -9,3 +9,5 @@ www-plugins/google-talkplugin google-talkplugin
 >=media-sound/google-musicmanager-1.0.54.4672_beta Google-TOS
 # required by www-plugins/adobe-flash (argument)
 =www-plugins/adobe-flash-11.2.202.291 AdobeFlash-11.x
+# required by www-plugins/adobe-flash (argument)
+=www-plugins/adobe-flash-11.2.202.297 AdobeFlash-11.x
