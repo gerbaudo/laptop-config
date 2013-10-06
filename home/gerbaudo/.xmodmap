@@ -6,5 +6,6 @@
 
 setxkbmap -model pc104 -layout us
 setxkbmap -option compose:menu # enable compose key on menu key
+setxkbmap -option compose:prsc #                and on prsc (menu not always there)
 setxkbmap -option ctrl:nocaps  # make caps an additional ctrl
 
