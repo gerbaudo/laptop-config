@@ -79,3 +79,50 @@ www-plugins/google-talkplugin ~x86
 =media-sound/pianobar-9999 ~x86
 # required by pypy (argument)
 =dev-python/pypy-2.0.2 ~x86
+# required by dev-python/sympy-0.7.2-r1
+# required by sympy (argument)
+=dev-python/pexpect-2.4-r1 ~x86
+# required by sympy (argument)
+=dev-python/sympy-0.7.2-r1 ~x86
+# required by dev-python/sympy-0.7.2-r1[opengl]
+# required by sympy (argument)
+=dev-python/pyopengl-3.0.2-r1 ~x86
+# required by sci-mathematics/pymc-9999
+# required by sci-mathematics/pymc (argument)
+=dev-python/pytables-3.0.0 ~x86
+# required by dev-python/pytables-3.0.0
+# required by sci-mathematics/pymc-9999
+# required by sci-mathematics/pymc (argument)
+=dev-python/cython-0.19.1 ~x86
+# required by sci-mathematics/pymc (argument)
+=sci-mathematics/pymc-9999 **
+# required by dev-python/numexpr-2.1
+# required by dev-python/pytables-3.0.0
+# required by sci-mathematics/pymc-9999
+# required by sci-mathematics/pymc (argument)
+=dev-python/numpy-1.7.1 ~x86
+# required by dev-python/pytables-3.0.0
+# required by sci-mathematics/pymc-9999
+# required by sci-mathematics/pymc (argument)
+=dev-python/numexpr-2.1 ~x86
+net-libs/opal ~x86
+dev-python/ipython ~x86
+
+# required by dev-python/ipython-1.0.0[qt4,-notebook,smp]
+# required by @selected
+# required by @world (argument)
+=dev-python/pyzmq-13.1.0 ~x86
+# required by dev-python/ipython-1.0.0
+# required by @selected
+# required by @world (argument)
+=dev-python/simplegeneric-0.8.1-r1 ~x86
+# required by dev-python/ipython-1.0.0
+# required by @selected
+# required by @world (argument)
+=dev-python/decorator-3.4.0-r1 ~x86
+# required by klavaro (argument)
+=app-misc/klavaro-1.9.7 ~x86
+# required by dev-vcs/svn2git (argument)
+=dev-vcs/svn2git-1.0.10 ~x86
+# required by net-fs/cvmfs (argument)
+=net-fs/cvmfs-2.1.14 ~x86

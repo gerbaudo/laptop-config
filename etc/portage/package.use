@@ -47,7 +47,7 @@ media-gfx/gimp jpeg pdf png
 dev-java/icedtea-bin nsplugin
 # want root with pyRoot (Oct2011)
 media-libs/libafterimage png tiff jpeg
-sci-physics/root python doc examples
+sci-physics/root python doc examples kerberos xml xrootd
 # DG 31/03/2012  sci-physics/root python doc examples debug
 # required by update 22Oct2011 (mesa) 
 dev-libs/libxml2 python
@@ -90,7 +90,7 @@ app-cdr/k3b mp3 encode
 >=sys-devel/gcc-4.6.3:4.6 gcj
 #required by sci-libs/scipy-0.9.0-r1, required by @selected, required by @world (argument)
 >=dev-python/numpy-1.6.2 lapack
-net-analyzer/wireshark gtk#required by sys-fs/udisks-1.0.4-r4, required by kde-base/kdelibs-4.9.5[udisks], required by kde-base/solid-4.9.5, required by kde-base/kinfocenter-4.9.5, required by kde-base/kdebase-meta-4.9.5, required by @selected, required by @world (argument)
+#required by sys-fs/udisks-1.0.4-r4, required by kde-base/kdelibs-4.9.5[udisks], required by kde-base/solid-4.9.5, required by kde-base/kinfocenter-4.9.5, required by kde-base/kdebase-meta-4.9.5, required by @selected, required by @world (argument)
 >=virtual/udev-197-r1 gudev hwdb
 #required by virtual/udev-197-r1, required by sys-apps/hwids-20130302[udev], required by sys-apps/lshw-02.16b-r2, required by @selected, required by @world (argument)
 =sys-fs/udev-197-r8 gudev hwdb
@@ -105,3 +105,20 @@ net-analyzer/wireshark gtk#required by sys-fs/udisks-1.0.4-r4, required by kde-b
 =sys-fs/udev-200 gudev hwdb
 # linphone with gui
 net-voip/linphone gtk
+# required by virtual/udev-197-r3
+# required by sys-fs/udev-init-scripts-26
+=sys-fs/udev-204 gudev hwdb
+# required by www-client/chromium-28.0.1500.95[system-ffmpeg]
+# required by @selected
+# required by @world (argument)
+=media-video/ffmpeg-1.0.7 opus
+# required by sci-libs/hdf5-1.8.10[mpi] (pymc)
+# required by sci-libs/hdf5 (argument)
+>=virtual/mpi-2.0-r3 romio
+www-plugins/adobe-flash sse2
+# required by x11-wm/i3-4.5.1[pango]
+# required by i3 (argument)
+=x11-libs/cairo-1.12.14-r4 xcb
+# required by net-fs/cvmfs-2.1.14
+# required by net-fs/cvmfs (argument)
+=net-misc/curl-7.31.0 adns
