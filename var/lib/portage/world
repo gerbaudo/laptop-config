@@ -14,6 +14,7 @@ app-emacs/slime
 app-emulation/virtualbox
 app-emulation/wine
 app-misc/anki
+app-misc/klavaro
 app-office/libreoffice
 app-office/scribus
 app-portage/gentoolkit
@@ -23,8 +24,10 @@ app-shells/tcsh
 app-text/acroread
 app-text/aspell
 app-text/dos2unix
+app-text/epstool
 app-text/gv
 app-text/pastebin
+app-text/pdfgrep
 app-text/pdftk
 app-text/texlive
 app-text/wgetpaste
@@ -37,6 +40,7 @@ dev-lisp/clisp
 dev-python/django
 dev-python/ipython
 dev-python/matplotlib
+dev-python/numpy
 dev-python/pypy
 dev-python/pyx
 dev-python/setuptools
@@ -50,6 +54,7 @@ dev-texlive/texlive-science
 dev-util/cmake
 dev-util/lafilefixer
 dev-vcs/git
+dev-vcs/mercurial
 kde-base/gwenview
 kde-base/kdebase-meta
 kde-base/kdeutils-meta
@@ -59,6 +64,7 @@ kde-base/kruler
 kde-base/ksnapshot
 kde-base/ktouch
 kde-base/okular
+media-fonts/intlfonts
 media-gfx/gimp
 media-gfx/imagemagick
 media-gfx/inkscape
@@ -66,18 +72,19 @@ media-gfx/pstoedit
 media-gfx/xfig
 media-sound/alsa-utils
 media-sound/google-musicmanager
-media-sound/pianobar
 media-video/acidrip
 media-video/dvdrip
 media-video/mplayer
 media-video/vlc
 net-analyzer/traceroute
-net-analyzer/wireshark
 net-dns/bind-tools
+net-fs/cvmfs
 net-im/skype
 net-libs/nodejs
 net-misc/clamz
+net-misc/curl
 net-misc/dhcpcd
+net-misc/mosh
 net-misc/openssh
 net-misc/rdesktop
 net-misc/tigervnc
@@ -108,6 +115,7 @@ sys-fs/dosfstools
 sys-fs/sshfs-fuse
 sys-kernel/gentoo-sources
 sys-power/acpid
+sys-power/acpitool
 sys-power/powertop
 sys-process/htop
 sys-process/lsof
@@ -126,7 +134,9 @@ x11-drivers/xf86-video-intel
 x11-drivers/xf86-video-vesa
 x11-misc/dmenu
 x11-misc/dzen
+x11-misc/i3status
 x11-misc/slock
 x11-misc/trayer-srg
 x11-misc/xmobar
+x11-wm/i3
 x11-wm/xmonad-contrib
