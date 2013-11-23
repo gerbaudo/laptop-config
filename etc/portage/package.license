@@ -4,10 +4,13 @@ net-im/skype skype-4.0.0.7-copyright
 app-emulation/virtualbox-additions PUEL
 dev-java/sun-jdk Oracle-BCLA-JavaSE
 www-plugins/adobe-flash AdobeFlash-10.3
-www-plugins/google-talkplugin google-talkplugin
+#www-plugins/google-talkplugin google-talkplugin
+www-plugins/google-talkplugin Google-TOS
 #required by media-sound/google-musicmanager (argument)
 >=media-sound/google-musicmanager-1.0.54.4672_beta Google-TOS
 # required by www-plugins/adobe-flash (argument)
 =www-plugins/adobe-flash-11.2.202.291 AdobeFlash-11.x
 # required by www-plugins/adobe-flash (argument)
 =www-plugins/adobe-flash-11.2.202.297 AdobeFlash-11.x
+# required by www-plugins/adobe-flash (argument)
+>=www-plugins/adobe-flash-11.2.202.327 AdobeFlash-11.x
