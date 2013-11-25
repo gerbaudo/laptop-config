@@ -159,9 +159,13 @@ bindsym $mod+r mode "resize"
 # finds out, if available)
 bar {
         status_command i3status
+        mode hide
+        hidden_state hide
+        modifier $mod
 }
 
 # commands to be performed by i3 on initial startup
 exec source ~/.xmodmap
+# commands to be performed by i3 at each restart
 exec_always kdkill
 exec_always kdlaunch &
