@@ -24,7 +24,7 @@ font -misc-fixed-medium-r-normal--13-120-75-75-C-70-iso10646-1
 floating_modifier $mod
 
 # start a terminal
-bindsym $mod+Return exec i3-sensible-terminal
+bindsym $mod+Return exec konsole
 
 # kill focused window
 bindsym $mod+Shift+q kill
@@ -148,3 +148,8 @@ bindsym $mod+r mode "resize"
 bar {
         status_command i3status
 }
+
+# commands to be performed by i3 on initial startup
+exec source ~/.xmodmap
+exec_always kdkill
+exec_always kdlaunch &
