@@ -23,6 +23,7 @@ mylayoutHook = spiral (6/7) ||| Mirror tiled ||| Full
 mymanageHook :: ManageHook
 mymanageHook = composeAll
                 [ className =? "Kruler" --> doFloat
+                , className =? "skype"  --> doFloat
 				, manageDocks]
 myWorkspaces = ["1:main","2:trig","3:hist","4:asym","5:media","6","7","8:irc"]
 
